@@ -1,11 +1,69 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Bootstrap Clone</title> 
-</head> 
-<body> 
-    <h1>Bootstrap Clone</h1> 
-</body> 
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bootstrap Clone</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-purple">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bootstrap Clone</a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#main">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container py-5" id="main">
+        <h1>Welcome to Bootstrap Clone</h1>
+
+        <p>
+            Ini adalah project latihan Git dan GitHub
+            menggunakan HTML, CSS, dan Bootstrap.
+        </p>
+
+        <a href="https://getbootstrap.com">
+            Kunjungi Website Bootstrap
+        </a>
+
+        <div class="mt-4">
+            <button class="btn btn-primary">Learn More</button>
+        </div>
+    </section>
+
+    <footer class="bg-light text-center py-4" id="footer">
+        <p>Bootstrap Clone - Dimas Raditya Legowo</p>
+        <a href="https://github.com/dimasradityalegowo">
+            GitHub Saya
+        </a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
